@@ -1,4 +1,4 @@
-package com.example.spring_boot.Types;
+package com.avioscoins.spring_boot.Types;
 
 public class Route {
     

@@ -1,4 +1,4 @@
-package com.example.spring_boot;
+package com.avioscoins.spring_boot;
 
 import java.util.Map;
 

@@ -1,4 +1,4 @@
-package com.example.spring_boot;
+package com.avioscoins.spring_boot;
 
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
@@ -61,7 +61,7 @@ class ApplicationTests {
 	void errorsOnIncorretRouteWithNoExistingAirports() throws Exception {
 		String url = "/coins/L/X";
 		this.mockMvc.perform(get(url)).andDo(print()).andExpect(status().isNotFound())
-            .andExpect(jsonPath("$.detail").value("No enum constant com.example.spring_boot.Types.Airports.L"));
+            .andExpect(jsonPath("$.detail").value("No enum constant com.avioscoins.spring_boot.Types.Airports.L"));
 	}
 
 	@Test

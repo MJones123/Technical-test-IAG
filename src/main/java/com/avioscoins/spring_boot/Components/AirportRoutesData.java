@@ -1,4 +1,4 @@
-package com.example.spring_boot.Components;
+package com.avioscoins.spring_boot.Components;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -6,8 +6,8 @@ import java.util.List;
 
 import org.springframework.stereotype.Component;
 
-import com.example.spring_boot.Types.Airports;
-import com.example.spring_boot.Types.Route;
+import com.avioscoins.spring_boot.Types.Airports;
+import com.avioscoins.spring_boot.Types.Route;
 
 @Component
 public class AirportRoutesData {

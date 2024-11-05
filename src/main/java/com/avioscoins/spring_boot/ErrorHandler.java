@@ -1,4 +1,4 @@
-package com.example.spring_boot;
+package com.avioscoins.spring_boot;
 
 import java.security.InvalidParameterException;
 import java.util.NoSuchElementException;

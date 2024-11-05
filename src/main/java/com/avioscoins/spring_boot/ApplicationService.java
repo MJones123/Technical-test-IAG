@@ -1,14 +1,14 @@
-package com.example.spring_boot;
+package com.avioscoins.spring_boot;
 
 import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.example.spring_boot.Components.AirportRoutesData;
-import com.example.spring_boot.Components.CabinHelper;
-import com.example.spring_boot.Types.Airports;
-import com.example.spring_boot.Types.Route;
+import com.avioscoins.spring_boot.Components.AirportRoutesData;
+import com.avioscoins.spring_boot.Components.CabinHelper;
+import com.avioscoins.spring_boot.Types.Airports;
+import com.avioscoins.spring_boot.Types.Route;
 
 @Service
 public class ApplicationService {
